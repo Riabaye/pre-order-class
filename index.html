@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<head>
+  <style>
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+    }
+
+    td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+    }
+    tr:nth-child(even) {
+  background-color:yellow;
+}
+.submit{
+    margin: 5% 15%;
+}
+</style>
+</Head>
+<Body>
+
+    <h2>Class and Name Table</h2>
+
+    <Table>
+       <thead>
+        <tr>
+            <th>Class</th>
+            <th>Names</th>
+        </tr>
+    </thead>
+    <Tbody>
+        <tr>
+            <td>Class 1</td>
+            <td>Robert Appah</td>
+        </tr>
+        <tr>
+            <td>Class 2</td>
+            <td>Venus Salle</td>
+        </tr>
+        <tr>
+            <td>Class 3</td>
+            <td>Charlotte Aspiran</td>
+        </tr>
+    </Tbody>
+    </Table>
+
+
+
+    <h2>Welcome To Our Website</h2>
+    <p>Join our Pre-order classes To purchase goods and servises</p>
+    <p>To join our Pre-Order class, You will have to input your Name, Email, and a strong password</p>
+    <form>
+      <label for="width">Name:</label><br>
+      <input class="width" type="text" id="fname" name="fname" value=""><br>
+      <label for="width">Email:</label><br>
+      <input class="width" type="text" id="fname" name="fname" value=""><br>
+      <label for="width">Password:</label><br>
+      <input class="width" type="text" id="lname" name="lname" value="">
+    </form>
+    <p>Do you want to join?</p>
+    <input class="radio" id="yes" type="radio" name="survey" value="yes">
+    <label for="yes">Yes</label>
+    <input class="radio" type="radio" id="no" name="survey" value="no">
+    <label for="no">No</label>
+    <p>Select Pre-order class category</p>
+    <input class="Pre-orderClass" id="beautyandcosmetics" type="checkbox" value="beautyandcosmetics" name="class1" >
+    <label for="beautyandcosmetics">Beauty and Cosmetics</label>
+    <input class="Pre-orderClass" id="clothingandaccessories" type="checkbox" value="clothingandaccessories" name="class2" >
+    <label for="clothingandaccessories">Clothing and Accessories</label> <br>
+    <input class="Pre-orderClass" id="ictgadgets" type="checkbox" value="ictgadgets" name="class3" >
+    <label for="ictgadgets">ICT Gadgets</label>
+    <input class="Pre-orderClass" id="groceries" type="checkbox" value="groceries" name="class4" >
+    <label for="groceries">Groceries</label> <br>
+    <input class="submit" type="submit" value="Register">
+    <script src="index.js"></script>
+</Body>
+</html>
